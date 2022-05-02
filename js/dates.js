@@ -44,7 +44,7 @@ month – месяц от 0 до 11.
 К примеру, getLastDayOfMonth(2012, 1) = 29 (високосный год, февраль).
 */
 function getLastDayOfMonth(year, month) {
-  let date = new Date(year, month + 1, 0);
+  const date = new Date(year, month + 1, 0);
   return date.getDate();
 }
 

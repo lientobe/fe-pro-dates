@@ -55,7 +55,7 @@ month – месяц от 0 до 11.
 */
 function getLastDayOfMonth(year, month) {
   let date = new Date(year, month + 1, 0);
-  return date.getDate();
+  return date.getDate(); 
 }
 
 module.exports = {

@@ -44,7 +44,7 @@ month – месяц от 0 до 11.
 К примеру, getLastDayOfMonth(2012, 1) = 29 (високосный год, февраль).
 */
 function getLastDayOfMonth(year, month) {
-  return new Date(year, month + 1, 0).getDate();
+  return new Date(year, ++month, 0).getDate();
 }
 
 module.exports = {
